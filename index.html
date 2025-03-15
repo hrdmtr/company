@@ -4,37 +4,65 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>mh合同会社</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
     <link rel="stylesheet" href="styles.css">
 </head>
-<body>
-    <header>
-        <h1>mh合同会社</h1>
-        <nav>
-            <ul>
-                <li><a href="#about">会社概要</a></li>
-                
-                <li><a href="#services">サービス</a></li>
-                <li><a href="#contact">お問い合わせ</a></li>
-            </ul>
-        </nav>
+<body class="bg-gray-100 text-gray-800">
+    <header class="bg-blue-900 text-white p-4">
+        <div class="container mx-auto">
+            <h1 class="text-3xl font-bold">mh合同会社</h1>
+            <p class="text-lg">テクノロジーによる社会の革新</p>
+            <nav>
+                <ul class="flex space-x-4">
+                    <li><a href="#home" class="hover:underline">ホーム</a></li>
+                    <li><a href="#about" class="hover:underline">会社概要</a></li>
+                    <li><a href="#services" class="hover:underline">サービス紹介</a></li>
+                    <li><a href="#contact" class="hover:underline">お問い合わせ</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
-    <main>
-        <section id="about">
-            <h2>会社概要</h2>
-            <p>ITおよびAI技術を通じて、企業様の課題を解決するソフトウェア開発会社です。</p>
+    <main class="container mx-auto p-4">
+        <section id="home" class="my-8">
+            <h2 class="text-2xl font-bold">最新のお知らせ</h2>
+            <p>ブログリンクや最新情報をここに掲載します。</p>
         </section>
-        <section id="services">
-            <h2>サービス</h2>
-            <p>・システムエンジニアリングサービス</p>
-            
+        <section id="about" class="my-8">
+            <h2 class="text-2xl font-bold">会社概要</h2>
+            <p>会社名: mh合同会社</p>
+            <p>設立年: 2023年11月</p>
+            <p>事業内容: 情報通信及びインターネット関連事業への投資、企業の合併、提携、営業権・有価証券の譲渡に関するコンサルティング業務、ソフトウェア及びハードウェアの企画、研究、開発、設計、製造、販売、保守、リース、賃貸及び輸出入に関する業務</p>
+            <p>使命: テクノロジーによる社会の革新</p>
+            <p>沿革: 会社設立の背景や今後の展望などをここに記載します。</p>
         </section>
-        <section id="contact">
-            <h2>お問い合わせ</h2>
-            <p>mizru326@gmail.com</p>
+        <section id="services" class="my-8">
+            <h2 class="text-2xl font-bold">サービス紹介</h2>
+            <p>受託開発業務を中心に、ソフトウェア開発、システムインテグレーション、コンサルティングを含む具体的なサービス内容を紹介します。</p>
+        </section>
+        <section id="achievements" class="my-8">
+            <h2 class="text-2xl font-bold">実績・事例</h2>
+            <ul>
+                <li>大手ECサイトのB.I構築業務（スノーフレーク活用）</li>
+                <li>不動産テック企業へのAIサービス、プロトタイプ作成</li>
+                <li>AI企業向けプロダクトマネジメント業務</li>
+            </ul>
+        </section>
+        <section id="development-flow" class="my-8">
+            <h2 class="text-2xl font-bold">私たちの開発の進め方</h2>
+            <p>作りたいものがまだ固まっていない状態でも相談に乗ることが可能です。初回の打ち合わせはオンラインミーティングの場合,
+                無料です。要件定義を作るなどクラウド導入等のコンサルティングは1時間あたり6000円より承ります。専用AIの作成等は、学習のためのデータが存在する前提で、簡単なもので1ヵ月程度（1,000,000円〜）お時間をいただきます。やりたいことを伺い、実現性があり製造可能と思われる依頼について要件定義から受託可能です。生成AIを使ったスピーディーな開発を行います。</p>
+        </section>
+        <section id="contact" class="my-8">
+            <h2 class="text-2xl font-bold">お問い合わせ</h2>
+            <p>連絡先情報（電話、メールアドレス）</p>
+            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSd8P1oySqr1TIolg0yDREWZGy7wNHEHwtJ4-VZPlDpiEqKdIA/viewform?embedded=true" width="640" height="1414" frameborder="0" marginheight="0" marginwidth="0">読み込んでいます…</iframe>
+            <p>会社の所在地と地図（必要に応じて）</p>
         </section>
     </main>
-    <footer>
-        <p>&copy; 2023 mh ,inc. All rights reserved.</p>
+    <footer class="bg-blue-900 text-white p-4">
+        <div class="container mx-auto">
+            <p>&copy; 2023 mh ,inc. All rights reserved.</p>
+        </div>
     </footer>
 </body>
 </html>
